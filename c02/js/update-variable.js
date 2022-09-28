@@ -1,0 +1,10 @@
+var instock;
+var shipping;
+instock=true;
+shipping=flase;
+instock=flase;
+shipping=true;
+var alstock=document.getElementById('stock');
+elstock.className=instock;
+var elship=document.getElementById('shipping');
+elship.className=shipping;
