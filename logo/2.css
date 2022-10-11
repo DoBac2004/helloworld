@@ -1,0 +1,45 @@
+h1{
+    font-size:  50px ;
+    padding: 20px 0px;
+    width: 100vw;
+    text-align: center;
+}
+label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+form{
+    max-width: 80vw;
+    margin: auto;
+}
+.sub,.text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sub input{
+    width: 80%;
+    padding: 10px ;
+    outline: none;
+}
+.text{
+    align-items: flex-start;
+    margin-top:20px;
+}
+textarea{
+    width:80%;
+    outline: none;
+}
+button{
+    font-size: 20px;
+    padding: 5px 20px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+
+}
+button:hover{
+    background-color: black;
+}
